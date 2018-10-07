@@ -40,7 +40,7 @@ add_action( 'oxygen_enqueue_ui_scripts', 'oto_enqueue_files' );
 function oto_enqueue_files() {
 
 	if ( defined( 'SHOW_CT_BUILDER' ) ) {
-		wp_enqueue_script( 'oxygen-structure-opener', plugin_dir_url( __FILE__ ) . 'assets/js/main.js', array( 'jquery' ), '1.0.0', true );
+		wp_enqueue_script( 'oxygen-tree-opener', plugin_dir_url( __FILE__ ) . 'assets/js/main.js', array( 'jquery' ), '1.0.0', true );
 	}
 
 }
